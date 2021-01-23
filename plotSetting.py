@@ -9,3 +9,6 @@ plt.rcParams['axes.unicode_minus']=False
 
 # 主题颜色设置
 sns.set(style="whitegrid", palette='RdBu', font='Arial Unicode MS') # seaborn
+
+# jupyter notebook显示更清晰的图片
+%config InlineBackend.figure_format ='retina'
